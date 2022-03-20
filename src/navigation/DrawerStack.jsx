@@ -1,8 +1,8 @@
 import React from 'react'
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { ADD_ORDER_SCREEN, ADD_ORDER_TITLE, LIST_ORDERS_SCREEN, LIST_ORDERS_TITLE } from '../constants/const';
-import ListOrdersScreen from '../components/screens/ListOrders/ListOrdersScreen';
-import AddOrderScreen from '../components/screens/AddOrder/AddOrderScreen';
+import ListOrdersScreen from '../components/screens/ListOrders/listOrdersScreen.component';
+import AddOrderScreen from '../components/screens/AddOrder/addOrderScreen.component';
 
 const Drawer = createDrawerNavigator();
 
